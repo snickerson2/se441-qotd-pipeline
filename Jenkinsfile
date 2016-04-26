@@ -1,3 +1,4 @@
+stage "DEV-QA"
 node {
    stage "Checkout"
    git 'https://github.com/snickerson2/se441-qotd-pipeline.git'
