@@ -1,7 +1,7 @@
 stage "DEV-QA"
 node {
    stage "Checkout"
-   git 'https://github.com/snickerson2/se441-qotd-pipeline.git'
+   git 'https://github.com/snickerson2/se441-qotd.git'
 
    def gradleHome = tool 'Gradle 2.11'
    stage "Build"
